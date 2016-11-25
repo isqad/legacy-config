@@ -11,3 +11,6 @@ ruby:
 
 scss:
   config_file: scss.yml
+
+haml:
+  config_file: haml.yml
