@@ -46,7 +46,8 @@
 
     "angular",
     "inject",
-    "module"
+    "module",
+    "CKEDITOR"
   ],
   "quotmark": true,
   "trailing": true,
