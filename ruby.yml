@@ -5,13 +5,10 @@ AllCops:
     Enabled: true
   TargetRubyVersion: 2.2
 
-Style/AccessorMethodName:
-  Description: Check the naming of accessor methods for get_/set_.
+Naming/FileName:
   Enabled: false
 
-Style/FileName:
-  Description: 'Use snake_case for source file names.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#snake-case-files'
+Naming/MethodName:
   Enabled: false
 
 AsciiComments:
@@ -29,7 +26,7 @@ CollectionMethods:
 Documentation:
   Enabled: false
 
-Style/DotPosition:
+Layout/DotPosition:
   Description: 'Checks the position of the dot in multi-line method calls.'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#consistent-multi-line-chains'
   Enabled: false
@@ -42,9 +39,8 @@ EmptyLiteral:
 
 Style/Encoding:
   Description: 'Use UTF-8 as the source file encoding.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#utf-8'
+  StyleGuide: '#utf-8'
   Enabled: false
-  EnforcedStyle: always
 
 Style/EvenOdd:
   Description: 'Favor the use of Fixnum#even? && Fixnum#odd?'
@@ -72,7 +68,7 @@ Metrics/MethodLength:
   Enabled: false
   Max: 30
 
-Style/OpMethod:
+Naming/BinaryOperatorParameterName:
   Description: 'When defining binary operators, name the argument other.'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#other-arg'
   Enabled: false
@@ -100,13 +96,13 @@ StringLiterals:
   EnforcedStyle: single_quotes
   Enabled: false
 
-Style/SpaceInsideHashLiteralBraces:
+Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
 HashSyntax:
   Enabled: false
 
-Style/TrailingBlankLines:
+Layout/TrailingBlankLines:
   Enabled: false
 
 Style/AndOr:
@@ -114,12 +110,12 @@ Style/AndOr:
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-and-or-or'
   Enabled: false
 
-Style/IndentHash:
+Layout/IndentHash:
   Description: 'Checks the indentation of the first key in a hash literal.'
   Enabled: true
   EnforcedStyle: consistent
 
-Style/IndentArray:
+Layout/IndentArray:
   Enabled: false
 
 Style/NestedParenthesizedCalls:
@@ -162,11 +158,11 @@ Rails/ActionFilter:
   Description: Enforces consistent use of action filter methods.
   Enabled: false
 
-Style/MultilineOperationIndentation:
+Layout/MultilineOperationIndentation:
   Description: Checks indentation of binary operations that span more than one line.
   Enabled: false
 
-Style/MultilineMethodCallIndentation:
+Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
   SupportedStyles:
     - aligned
