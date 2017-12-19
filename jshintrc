@@ -21,6 +21,7 @@
     "$",
     "jQuery",
     "app",
+    "appEL",
     "IStorage",
     "formSubmitter",
     "u_reRenderPopup",
