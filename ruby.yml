@@ -56,8 +56,9 @@ Style/LineEndConcatenation:
   Description: '>-Use \ instead of + or << to concatenate two string literals at line end.'
   Enabled: false
 
-#LineLength:
-  #Max: 120 #!
+Style/PercentLiteralDelimiters:
+  Enabled: false
+
 Metrics/LineLength:
   Max: 120
 
