@@ -59,6 +59,11 @@ Style/LineEndConcatenation:
 Style/PercentLiteralDelimiters:
   Enabled: false
 
+Style/SymbolArray:
+  Description: Use %i or %I for arrays of symbols.
+  StyleGuide: https://github.com/bbatsov/ruby-style-guide#percent-i
+  Enabled: false
+
 Metrics/LineLength:
   Max: 120
 
