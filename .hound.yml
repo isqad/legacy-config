@@ -5,6 +5,7 @@ coffeescript:
 
 jshint:
   config_file: jshintrc
+  ignore_file: .jshintignore
 
 ruby:
   config_file: ruby.yml
