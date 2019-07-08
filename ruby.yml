@@ -28,6 +28,9 @@ Layout/DotPosition:
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#consistent-multi-line-chains'
   Enabled: false
 
+Layout/EmptyLineAfterMagicComment:
+  Enabled: false
+
 DoubleNegation:
   Enabled: false
 
@@ -189,3 +192,4 @@ Style/GuardClause:
 
 Style/FrozenStringLiteralComment:
   Enabled: false
+
