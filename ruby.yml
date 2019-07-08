@@ -1,9 +1,6 @@
 AllCops:
   Exclude:
     - db/schema.rb
-  Rails:
-    Enabled: true
-  TargetRubyVersion: 2.2
 
 Naming/FileName:
   Enabled: false
@@ -118,12 +115,12 @@ Style/AndOr:
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-and-or-or'
   Enabled: false
 
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   Description: 'Checks the indentation of the first key in a hash literal.'
   Enabled: true
   EnforcedStyle: consistent
 
-Layout/IndentArray:
+Layout/IndentFirstArrayElement:
   Enabled: false
 
 Style/NestedParenthesizedCalls:
@@ -165,11 +162,6 @@ Lint/UnusedMethodArgument:
 Lint/UnusedBlockArgument:
   Enabled: false
 
-
-Rails/ActionFilter:
-  Description: Enforces consistent use of action filter methods.
-  Enabled: false
-
 Layout/MultilineOperationIndentation:
   Description: Checks indentation of binary operations that span more than one line.
   Enabled: false
@@ -193,4 +185,7 @@ Metrics/AbcSize:
 Style/GuardClause:
   Description: Check for conditionals that can be replaced with guard clauses
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#no-nested-conditionals
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
   Enabled: false
