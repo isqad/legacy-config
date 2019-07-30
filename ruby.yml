@@ -193,3 +193,5 @@ Style/GuardClause:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
+Style/NumericPredicate:
+  Enabled: false
