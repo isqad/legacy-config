@@ -1,4 +1,4 @@
-exclude: 
+exclude:
   - 'frontend/blocks/**'
 
 linters:
@@ -110,11 +110,6 @@ linters:
   PlaceholderInExtend:
     enabled: true
 
-  PropertyCount:
-    enabled: false
-    include_nested: false
-    max_properties: 10
-
   PrivateNamingConvention:
     enabled: false
 
@@ -145,7 +140,7 @@ linters:
 
   SelectorFormat:
     enabled: true
-    convention: hyphenated_lowercase
+    convention: '^[a-z\-\_0-9]*$'
 
   Shorthand:
     enabled: true
