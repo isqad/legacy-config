@@ -148,6 +148,7 @@ Style/Lambda:
 Lint/AmbiguousBlockAssociation:
   Exclude:
     - 'spec/**/*'
+    - '*/spec/**/*'
 
 Lint/AssignmentInCondition:
   Description: "Don't use assignment in conditions."
