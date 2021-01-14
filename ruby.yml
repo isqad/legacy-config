@@ -199,3 +199,7 @@ Style/NumericPredicate:
 
 Style/SafeNavigation:
   Enabled: false
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+
